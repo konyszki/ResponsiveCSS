@@ -1,21 +1,22 @@
 ﻿<!DOCTYPE html>
-<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
 <html>
-<link href="ResponsiveCss.css" rel="stylesheet" />
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.5">
+    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+    <!--<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=1, minimum-scale=1.0, maximum-scale=1.5">-->
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width" />
     <meta name="HandheldFriendly" content="True">
     <meta name="MobileOptimized" content="width">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Condensed" rel="stylesheet">
+    <link href="ResponsiveCss.css" rel="stylesheet" />
     <title></title>
     <meta charset="utf-8" />
 </head>
 <body>
-    <header>
-        <div class="wrapper">
-            <nav tabindex="0" class="main_nav">
+    <header >       
+            <nav tabindex="0" class="flex_item header_left">
                 <ul class="onclick-menu-content">
                     <li><a href="">SHOP</a></li>
                     <li><a href="">GO</a></li>
@@ -26,24 +27,20 @@
                     <li><a href="">GET</a></li>
                 </ul>
             </nav>
-            <h1 class="header_main">
-                <b>CITY GUIDE</b>
+            <h1 class="flex_item header_main">
+                <b>GOOP</b>
             </h1>
-            <aside class="account">
-                <section class="list_inline">
-                    <ul><li><a href=""> SIGN IN </a></li><li><a href=""> CREATE ACCOUNT </a></li></ul>
-                </section>
+            <aside class="flex_item header_right">
                 <section>
-                    <input type="text" width="100px" />
-                    <p>Free Shipping on US ordewrs over $50 Detail</p>
+                    <input type="search"  width="100px" placeholder="Search"/>
+                </section>
+                <section class="list_inline">
+                    <ul><li><a href=""> SIGN IN </a></li><li><a href=""> Register </a></li></ul>
                 </section>
             </aside>
-
-        </div>
-
     </header>
-    <div class="wrapper">
-        <aside class="side_nav">
+    <div class="menu_container">
+        <aside class="main_left">
             <p>Home / Go</p>
 
             <p>CITY GUIDES</p>
@@ -56,30 +53,32 @@
             </ul>
         </aside>
         <article class="main">
-            <h1>MAIN</h1>
+            <h1>
+                <img src="cssResponsive.jpg" />
+            </h1>
         </article>
-        <aside class="shop">
-
+        <aside class="main_right">
             <h3><b>SHOP</b></h3>
             <p>
                 <input type="button" value="SHOP ALL GO" />
             </p>
 
         </aside>
-        <footer class="footer">
-            <section class="list_inline">
-                <ul>
-                    <li> <a href="">PRIVACY & COOKIES POLICY</a> </li>
-                    <li> <a href="">WEB ITERMS OF USE</a> </li>
-                    <li>
-                        <a href="">CUSTOMER TERMS & CONDITIONS</a>
-                    </li>
-                    <li> <a href="">EDITORIAL POLICY</a> </li>
-                </ul>
-                <p>©GOOP 2016 ALL RIGHTS RESERVED</p>
-            </section>
-        </footer>
+        
     </div>
+    <footer class="footer">
+        <section class="list_inline">
+            <ul>
+                <li> <a href="">PRIVACY & COOKIES POLICY</a> </li>
+                <li> <a href="">WEB ITERMS OF USE</a> </li>
+                <li>
+                    <a href="">CUSTOMER TERMS & CONDITIONS</a>
+                </li>
+                <li> <a href="">EDITORIAL POLICY</a> </li>
+            </ul>
+            <p>©GOOP 2016 ALL RIGHTS RESERVED</p>
+        </section>
+    </footer>
 </body>
 </html>
 
